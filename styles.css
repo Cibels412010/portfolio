@@ -114,3 +114,38 @@ footer {
     font-size: 0.9em;
     color: #666;
 }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    #skills-education {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    }
+
+    .card {
+        margin: 10px 0; /* Margen vertical entre tarjetas */
+    }
+
+    .header-container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .profile-pic {
+        margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
+        margin-bottom: 20px; /* Agrega margen inferior para separación */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em; /* Reduce el tamaño del título en pantallas muy pequeñas */
+    }
+
+    header p {
+        font-size: 1em; /* Reduce el tamaño del texto en pantallas muy pequeñas */
+    }
+
+    .profile-pic {
+        width: 150px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+    }
+}
