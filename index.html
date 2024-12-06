@@ -3,32 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
     <title>Cibels Piotti - Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Hola, soy Cibels Piotti</h1>
-        <p>Desarrolladora Web Junior</p>
-        <p>Contacto: <a href="mailto:cibelspiotti@gmail.com">cibelspiotti@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Cibels412010">github.com/Cibels412010</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/cibelspiotti">linkedin.com/in/cibelspiotti</a></p>
+        <div class="header-container">
+            <img src="images/2PerfilPicture.jpeg" alt="Cibels Piotti" class="profile-pic">
+            <div class="header-text">
+                <h1>Hola, soy Cibels Piotti</h1>
+                <p>Desarrolladora Web Junior</p>
+                <p>Contacto: <a href="mailto:cibelspiotti@gmail.com">cibelspiotti@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/Cibels412010">github.com/Cibels412010</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/cibelspiotti">linkedin.com/in/cibelspiotti</a></p>
+            </div>
+        </div>
     </header>
     
     <section id="about">
         <h2>Sobre mí</h2>
         <p>Soy una desarrolladora web junior con una fuerte pasión por la tecnología y el aprendizaje continuo. Tengo experiencia en desarrollo backend utilizando C# y gestión de bases de datos relacionales con SQL Server. Actualmente, estoy cursando una carrera de programación en UTN, enfocándome en programación orientada a objetos, diseño de bases de datos y desarrollo web.</p>
     </section>
+    <div id="skills-education">
 
-    <section id="skills">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Lenguajes de Programación: C#, SQL, HTML, CSS, JavaScript</li>
-            <li>Frameworks y Herramientas: Bootstrap, Entity Framework, JSON Web Tokens (JWT)</li>
-            <li>Gestión de Bases de Datos: Diseño y administración de bases de datos relacionales en SQL Server</li>
-            <li>Otros: Git/GitHub, Visual Studio, Visual Studio Code</li>
-        </ul>
-    </section>
+        <section id="education" class="card">
+            <div >
+            <h2>Educación</h2>
+                <h3>Universidad Tecnológica Nacional</h3>
+                <p><strong>Tecnicatura Universitaria en Programación</strong></p>
+                <p><strong>Periodo:</strong> 03/2024 – Presente</p>
+                <p><strong>Cursos relevantes:</strong> Programación Orientada a Objetos, Diseño de Bases de Datos, Desarrollo Web, Algoritmos y Estructuras de Datos.</p>
+                <p><strong>Proyecto clave:</strong> Sistema de Gestión de Torneos (API REST usando C#, SQL Server, Bootstrap, y autenticación JWT).</p>
+            </div>
+        </section>
+        <section id="skills" class="card">
+            <div >
+                <h2>Habilidades</h2>
+                <ul>
+                    <li><strong>Lenguajes de Programación:</strong> C#, SQL, HTML, CSS, JavaScript</li>
+                    <li><strong>Frameworks y Herramientas:</strong> Bootstrap, Entity Framework, JSON Web Tokens (JWT)</li>
+                    <li><strong>Gestión de Bases de Datos:</strong> Diseño y administración de bases de datos relacionales en SQL Server</li>
+                    <li><strong>Otros: </strong>Git/GitHub, Visual Studio, Visual Studio Code</li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
     <section id="projects">
         <h2>Proyectos</h2>
